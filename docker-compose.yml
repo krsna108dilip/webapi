@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  netcore_webapi_kubernetes_demo:
+    image: ${DOCKER_REGISTRY-}netcorewebapikubernetesdemo
+    build:
+      context: .
+      dockerfile: Dockerfile

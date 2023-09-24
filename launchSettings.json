@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "netcore_webapi_kubernetes_demo": "StartWithoutDebugging"
+      }
+    }
+  }
+}
